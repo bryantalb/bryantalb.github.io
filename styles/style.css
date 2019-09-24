@@ -97,6 +97,7 @@ section.projects img {
 
 section.projects .project {
   height: 50vh;
+  width: 100%;
   position: relative;
 }
 
