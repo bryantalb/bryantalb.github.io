@@ -66,6 +66,7 @@ header nav ul {
 header nav a {
   color: #eeeeee;
   text-decoration: none;
+  font-size: 0.9em;
   margin-left: 2em;
 }
 
