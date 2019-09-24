@@ -128,7 +128,7 @@ section.projects .all-projects {
   font-size: 1.2em;
   text-align: center;
   padding: 1em 0 1.5em;
-  background: #dddddd;
+  background: #e5e5e5;
 }
 
 section.contact {
@@ -137,7 +137,7 @@ section.contact {
   gap: 3em;
   align-items: center;
   height: 50vh;
-  background: #e5e5e5;
+  background: #eeeeee;
 }
 
 section.contact .email {
