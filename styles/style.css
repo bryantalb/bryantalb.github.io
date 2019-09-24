@@ -91,7 +91,6 @@ section.projects ul {
 section.projects .project {
   height: 50vh;
   position: relative;
-  overflow: hidden;
 }
 
 section.projects .project h2,
@@ -101,10 +100,6 @@ section.projects .project h3 {
   color: #eeeeee;
   opacity: 0.9;
   padding: 5px 10px;
-}
-
-.test {
-  font-size: 2em;
 }
 
 section.projects .project h2 {
