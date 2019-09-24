@@ -125,12 +125,10 @@ section.projects .project h3 {
 
 section.projects .all-projects {
   grid-area: box3;
-}
-
-.all-projects {
   font-size: 1.2em;
   text-align: center;
-  margin: 1em 0 2.5em;
+  padding: 1em 0 1.5em;
+  background: #dddddd;
 }
 
 section.contact {
