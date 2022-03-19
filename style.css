@@ -267,12 +267,12 @@ section .primary-btn {
 }
 
 .card h3 {
-  font-size: var(--fs-450);
+  font-size: var(--fs-500);
   font-weight: normal;
 }
 
 .card-list {
-  font-size: var(--fs-300);
+  font-size: var(--fs-350);
   padding: 0 1em;
   margin-top: 0.5em;
   white-space: nowrap;
