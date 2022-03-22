@@ -221,7 +221,6 @@ section {
 
 .hero {
   min-height: calc(100vh - 3em);
-  min-height: -webkit-fill-available;
   display: grid;
   gap: 2em;
   background: var(--color-neutral-100);
