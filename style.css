@@ -378,6 +378,7 @@ section {
   right: 1.5em;
   border: 2px solid white;
   border-radius: 50%;
+  z-index: -1;
 }
 
 /* Footer */
@@ -391,6 +392,8 @@ footer {
   gap: 1em;
   place-items: center;
   letter-spacing: 0.01rem;
+  position: relative;
+  z-index: -2;
 }
 
 .info-name {
