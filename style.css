@@ -221,6 +221,7 @@ section {
 
 .hero {
   min-height: calc(100vh - 3em);
+  min-height: -webkit-fill-available;
   display: grid;
   gap: 2em;
   background: var(--color-neutral-100);
@@ -323,7 +324,7 @@ section {
 
 .card__list {
   font-size: var(--fs-350);
-  margin: auto 0 0;
+  margin: 0;
   white-space: nowrap;
   padding: 0;
 }
@@ -352,6 +353,7 @@ section {
   align-items: center;
   gap: 1em;
   margin-bottom: 1em;
+  margin-top: -1em;
 }
 
 .tagline-xl {
