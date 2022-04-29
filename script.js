@@ -1,14 +1,11 @@
-const primaryNav = document.querySelector('.primary-nav');
-const navToggle = document.querySelector('.nav-toggle');
+const menu = document.querySelector('.menu');
+const close = document.querySelector('.close-menu');
+const nav = document.querySelector('.primary-nav');
 
-navToggle.addEventListener('click', () => {
-  const visibility = primaryNav.getAttribute('data-visible');
+menu.addEventListener('click', () => {
+  nav.classList.add('open-menu');
+});
 
-  if (visibility === 'false') {
-    primaryNav.setAttribute('data-visible', true);
-    navToggle.setAttribute('aria-expanded', true);
-  } else if (visibility === 'true') {
-    primaryNav.setAttribute('data-visible', false);
-    navToggle.setAttribute('aria-expanded', false);
-  }
+close.addEventListener('click', () => {
+  nav.classList.remove('open-menu');
 });
