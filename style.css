@@ -120,7 +120,7 @@ body {
 }
 
 .button--mobile {
-  font-size: var(--fs-300);
+  font-size: clamp(var(--fs-300), 3vw, var(--fs-400));
   margin-top: 2em;
 }
 
@@ -290,12 +290,12 @@ footer > .container {
 
 /* Header */
 header > .container {
-  height: 3em;
+  height: clamp(3em, 12vw, 4em);
 }
 
 .logo {
   color: var(--color-primary-400);
-  font-size: var(--fs-300);
+  font-size: clamp(var(--fs-300), 3vw, var(--fs-400));
   text-decoration: none;
   cursor: pointer;
 }
@@ -375,8 +375,9 @@ header > .container {
 }
 
 .hero-section__title {
-  font-size: var(--fs-700);
+  font-size: clamp(var(--fs-700), 10vw, var(--fs-800));
   color: var(--color-neutral-100);
+  line-height: 1.25em;
 }
 
 /* About section */
@@ -385,7 +386,7 @@ header > .container {
 .projects-section,
 .cta-section,
 .awards-section {
-  padding-block: 3em;
+  padding-block: clamp(3em, 12vw, 5em);
 }
 
 .pre-title {
@@ -403,13 +404,13 @@ header > .container {
 
 .about-section__title,
 .projects-section__title {
-  font-size: var(--fs-500);
+  font-size: clamp(var(--fs-500), 5vw, var(--fs-600));
   padding-block: 0.1em;
 }
 
 .about-section__info,
 .projects-section__info {
-  font-size: var(--fs-300);
+  font-size: clamp(var(--fs-300), 3vw, var(--fs-400));
 }
 
 .about-section .button,
@@ -455,12 +456,12 @@ header > .container {
 }
 
 .card__title {
-  font-size: var(--fs-400);
+  font-size: clamp(var(--fs-400), 4vw, var(--fs-500));
   margin-bottom: 0.1em;
 }
 
 .card__info {
-  font-size: var(--fs-300);
+  font-size: clamp(var(--fs-300), 3vw, var(--fs-400));
 }
 
 /* Projects section */
@@ -517,7 +518,7 @@ header > .container {
 
 .awards-section__award {
   width: clamp(5.25em, 16vw, 8em);
-  padding-block: 1em;
+  padding-block: 2em;
 }
 
 /* Footer */
